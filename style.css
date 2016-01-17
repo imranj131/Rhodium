@@ -114,7 +114,7 @@ h1,
 h2,
 .h2 {
   font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   line-height: 28px;
   line-height: 1.75rem;
   text-transform: uppercase;
@@ -943,7 +943,7 @@ input::-moz-focus-inner {
   .col-9-desktop {
     width: 75%;
   }
-  .col-10-desktop {
+  .center-element {
     width: 83.33333333%;
   }
   .col-11-desktop {
@@ -1618,11 +1618,8 @@ img {
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
 }
 .logo {
-  width: 306px;
+  width: 58;
   height: 30px;
-  font-size: 45px;
-  font-family: 'Megrim', cursive;
-  color: #fd7b7e;
   display: inline-block;
   float: left;
   -webkit-transition: all 0.3s;
@@ -1630,6 +1627,25 @@ img {
   transition: all 0.3s;
   opacity: 1;
   margin-top: 10px;
+}
+.logo-text {
+  width: 306px;
+  height: 30px;
+  font-size: 45px;
+  font-family: 'Megrim', cursive;
+  color: #555;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+  margin-top: 22px;
+  position: relative;
+  font-weight: 450;
+}
+.about-us {
+  font-size: 50px;
+  line-height: 55px;
 }
 .logo:hover {
   opacity: .8;
@@ -2314,6 +2330,7 @@ img {
 .footer p {
   margin: 0;
   padding-top: 2px;
+  padding-right: 77px;
 }
 .icon-list-inline {
   list-style: none;
@@ -2583,7 +2600,7 @@ img {
     margin: 0 20px;
   }
   .navigation-menu .navigation-item > a {
-    color: #fd7b7e;
+    color: #555;
   }
   .clients-list li {
     padding-left: 15px;
