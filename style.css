@@ -1613,7 +1613,7 @@ img {
   padding-bottom: 15px;
   position: relative;
   background-color: #000;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #fff;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
 }
